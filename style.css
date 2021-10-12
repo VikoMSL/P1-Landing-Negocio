@@ -1,9 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
 }
 
 body {
-    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo_nav {
+    width: 35px;
+    height: 35px;
+}
+
+.container_nav {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    position: fixed;
+}
+
+.nav {
+    display: inline-block;
+    text-decoration: none;
+    color: #168d3a;
+    padding-right: 15px;
+}
+
+.bk_blog {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bg_img/img_bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_esp_temp {
+    width: 30%;
+    height: 90vh;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.tittle_esp_temp {
+    color: #168d3a;
+    margin-bottom: 35px;
+}
+
+.box_esp_temp {
+    display: block;
+    background-color: #808080;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.text_esp_temp_h2 {
+    font-size: 2rem; 
+    padding-bottom: 10px;
+}
+
+.text_esp_temp_h3 {
+    font-size: 1.5rem;
 }
